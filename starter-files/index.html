@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bikes</title>
+	<meta name="keywords" content="html,css,javaScript">
+	<meta name="description" content="Bikes">
+	<meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- Latest compiled and minified BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Local CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Font-awesome 5 cdn -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- start here -->
+	<nav class="navbar-default col-md-10 col-md-offset-1 background-1">
+		<div class="container-fluid col-md-10">
+			<div class="row">
+
+				<div class="navbar-header">
+					<img src="/img//logo.png" class="navbar-brand img-responsive" />
+				</div>
+
+				<ul class="nav navbar-nav text-uppercase navCenter">
+					<li><a href="#">home</a></li>
+					<li><a href="#">bikes</a></li>
+					<li><a href="#">gear</a></li>
+					<li><a href="#">parts</a></li>
+					<li><a href="#">tires</a></li>
+					<li><a href="#">service-info</a></li>
+					<li><a href="#">catalogues</a></li>
+					<li><a href="#">contact</a></li>
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><i class="fas fa-search"></i></li>
+					<li><i class="glyphicon glyphicon-lock
+				"></i></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid col-md-10 col-md-offset-1 background-1">
+		<div class="row">
+			<hr style="width: 98%; border:1px solid #e7e7e7; margin-left:1%;">
+			<h1 style="margin-left:1%; font-size: 50px;">Bikes</h1>
+			<hr style="width: 98%; border:1px solid #e7e7e7; margin-left:1%;">
+		</div>
+	</div>
+	<div class="container-fluid col-md-10 col-md-offset-1 background-1">
+		<div class="row">
+			<div class="col-md-3 sidebarStyle" id="myDiv">
+				<h3 class="margin-bottom"><b>Filter by:</b></h3>
+				<div class="style-sidebar">
+					<span class="margin-bottom active" id="all" href="#">Show all</span><span class="badge margin-bottom showAll bactive"></span>
+				</div>
+				<hr style="width: 98%; border:1px solid #e7e7e7; margin-left:1%;">
+				<h3><b>Gender</b></h3>
+				<div class="style-sidebar">
+					<span class="margin-bottom" id="male" href="#">Male</span><span class="badge margin margin-bottom maleCount"></span>
+				</div>
+				<div class="style-sidebar">
+
+					<span class="margin-bottom" id="female" href="#">Female</span><span class="badge margin-bottom femaleCount"></span>
+				</div>
+				<hr style="width: 98%; border:1px solid #e7e7e7; margin-left:1%;">
+				<h3><b>Brand</b></h3>
+				<div class="style-sidebar">
+
+					<span href="#" id='leGrandBikes' class="text-uppercase margin-bottom">le grand bikes</span><span class="badge legrandCount"></span>
+				</div>
+				<div class="style-sidebar">
+					<span href="#" id='kross'class="text-uppercase margin-bottom">kross</span><span class="badge krossCount"></span>
+
+				</div>
+				<div class="style-sidebar">
+
+					<span href="#" id='explorer'class="text-uppercase margin-bottom">explorer</span><span class="badge explorerCount"></span>
+				</div>
+				<div class="style-sidebar">
+
+					<span href="#" id='visitor'class="text-uppercase margin-bottom">visitor</span><span class="badge visitorCount"></span>
+				</div>
+				<div class="style-sidebar">
+
+					<span href="#" id='pony'class="text-uppercase margin-bottom">pony</span><span class="badge ponyCount"></span>
+				</div>
+				<div class="style-sidebar">
+
+					<span href="#" id='force'class="text-uppercase margin-bottom">force</span><span class="badge forceCount"></span>
+				</div>
+				<div class="style-sidebar">
+
+					<span href="#" id='e-bikes'class="text-uppercase margin-bottom">e-bikes</span><span class="badge ebikesCount"></span>
+				</div>
+				<div class="style-sidebar">
+
+					<span href="#" id='ideal'class="text-uppercase margin-bottom">ideal</span><span class="badge idealCount"></span>
+				</div>
+			</div>
+			<div class="col-md-9" id="cards">
+
+			</div>
+		
+			<hr style="width: 98%; border:1px solid #e7e7e7; margin-left:1%; margin-bottom: 2%;">
+		</div>
+	</div>
+	<div class="container-fluid col-md-10 col-md-offset-1 background-1">
+		<div class="row">
+			<div class="col-md-3">
+				<h3><b>Social share</b></h3>
+				<i class="fab fa-facebook-f socialShare"></i>
+				<i class="fab fa-instagram socialShare"></i>
+				<i class="fab fa-twitter socialShare"></i>
+				<i class="fab fa-linkedin-in socialShare"></i>
+			</div>
+			<div class="col-md-3 border-left">
+				<h3><b>Event Info</b></h3>
+				<ul>
+					<li>Enter Now</li>
+					<li>Event Info</li>
+					<li>Course Maps</li>
+					<li>Race Pack</li>
+					<li>Results</li>
+					<li>FAQs</li>
+					<li>Am i Registered?</li>
+				</ul>
+			</div>
+			<div class="col-md-3 border-left">
+				<h3><b>Registration</b></h3>
+				<ul>
+					<li>Volunteers</li>
+					<li>Gallery</li>
+					<li>Press</li>
+					<li>Results</li>
+					<li>Privacy Policy</li>
+					<li>Service Plus</li>
+					<li>Contacts</li>
+				</ul>
+			</div>
+			<div class="col-md-3 border-left margin-bottom">
+				<h3><b>Schedule</b></h3>
+				<ul>
+					<li>Gallery</li>
+					<li>About</li>
+					<li>Videos</li>
+					<li>Results</li>
+					<li>FAQS</li>
+					<li>Results</li>
+					<li>Volunteers</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- jQuery library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="js/products.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

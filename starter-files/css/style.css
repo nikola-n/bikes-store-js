@@ -1,0 +1,124 @@
+body {
+	background-color: #e7e7e7;
+}
+
+/*use color:orange for the orange color*/
+/*use background-color: #d3d3d3; color: #5c5c5c; for the badges*/
+/*use color:grey for the social-share icons on hover*/
+.navCenter {
+	margin-left:16%;
+	font-weight: bold;
+	margin-top:4%;
+	font-size:17px;
+}
+
+.fas {
+	margin-left:-60%;
+}
+hr {
+	margin:0;
+	padding:0;
+}
+.navbar-default {
+	height: 15vh;
+	border:none;
+	margin-bottom: 0px;
+	padding: 0;
+}
+.navbar-brand {
+	height: 100px;
+	margin-top:10%;	
+}
+.navbar-right {
+	margin-top:4%;
+	font-size: 25px;
+	margin-right: -231px;
+}
+.background-1{
+	background-color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a {
+
+	font-family: Impact,'Arial Narrow Bold', sans-serif;
+	color:black;
+}
+
+.sidebarStyle{
+	display: flex; 
+	flex-direction: column;
+}
+.margin-bottom{
+	margin-bottom: 3%;
+}
+.style-sidebar {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+} 
+ul>li {
+	list-style: none;
+	margin-bottom: 2%;
+}
+.border-left{
+	border-left:2px solid #e7e7e7;
+	height: auto;
+}
+h3 {
+	margin-bottom: 6%;
+}
+.socialShare {
+	padding:10px 15px;
+	color: white;
+	background-color: #ffa500;
+	margin-left: 5%;
+}
+.allDivs {
+	height: 45vh;
+	margin-top:2%;
+	
+}
+.caption {
+	background-color:#ffa500;	
+}
+.thumbnail{
+	padding: 0;
+}
+.thumbnail>img {
+	height: 29vh;
+	padding:10px 15px;
+}
+.active, span:hover{
+	font-weight: bolder;
+	color: #ffa500;
+}
+.badge {
+	background-color: #d3d3d3; 
+	color: #5c5c5c;
+}
+.bactive, .badge:hover{
+	background-color: #ffa500;
+	color:black;
+}
+.socialShareHover {
+	background-color:gray;
+}
+.liHover {
+	color:#ffa500;
+}
+#cards>.allDivs>.thumbnail:hover {
+	transform: scale(1);
+	border:2px solid #ffa500;
+}
+
+
+.aHover{
+	color:#ffa500 !important;
+	background-color:#d3d3d3 !important;
+}
+
+
+/* .cardsScale{
+	transform: scale(1);
+	border:2px solid #ffa500;
+} */
